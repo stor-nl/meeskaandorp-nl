@@ -1,0 +1,48 @@
+$icon-color: #333333;
+
+body {
+    overflow-y: hidden;
+    font-family: 'Arvo', serif;
+}
+
+.footer {
+    padding: 1rem 1.5rem 1rem;
+}
+
+.image img {
+    width: auto;
+}
+
+.image {
+    text-align: -webkit-center;
+}
+.work-tasks ul {
+    columns: 2;
+}
+
+.icon {
+    color: $icon-color;
+}
+
+.work-description {
+    font-size: large;
+}
+
+ul#footer-list {
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 20px 20px;
+}
+
+#footer-list li {
+    padding: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .home-content p {
+      text-align: center;
+    }
+}

@@ -1,0 +1,28 @@
+data:
+- company: BUX
+  location: Amsterdam
+  function: Crypto Support Operations
+  image: bux.png
+  description: At BUX, we’re making it easier and more affordable for a new generation of investors to do more with their money. Since launching in 2014, BUX has made the markets accessible for more than 2 million users across 9 countries in Europe. With the introduction of BUX Zero, BUX is bringing commission-free investing to all, allowing users to invest in the brands and companies they care about.
+  tasks:
+  - task: Customer support
+  - task: Operational Tasks
+  - task: Due dilligence
+- company: Productpine
+  location: Amsterdam
+  function: Marketing Intern
+  image: productpine.jpg
+  description: Making direct-to-consumer efficient. At Productpine, we believe that direct interactions between brands and consumers should become the norm in commerce. By making direct-to-consumer efficient for brands, we are accelerating the global shift towards direct-to-consumer sales.
+  tasks:
+  - task: Setting up affiliate marketing
+  - task: Setting up email marketing
+  - task: Setting up influencer marketing
+  - task: Setting up events
+- company: Goede Doelen Loterijen
+  location: Amsterdam
+  function: Customer Care Specialist – Webcare
+  image: gdl.png
+  description: The Dutch Charity Lotteries are made up of the Dutch Postcode Lottery, the VriendenLoterij and the BankGiro Loterij. The mission of the Dutch charity lotteries is to raise funds for charitable organisations and to raise awareness for the work they carry out. At least 40 percent of each lottery ticket goes towards more than 200 charitable and cultural organisations. The Dutch Charity Lotteries are part of the Holding Dutch Charity Lotteries. The managing board for all three lotteries operates through Novamedia. Novamedia owns several brands and lottery formats. The annual Giving List has ranked Novamedia and the Postcode Lotteries as the world’s second biggest private charity donor and number one in Europe.
+  tasks:
+  - task: First contact with participants via phone, e-mail, livechat and social media
+  - task: Hosting various events, such as musicals, sport tournaments, concerts and art galleries.

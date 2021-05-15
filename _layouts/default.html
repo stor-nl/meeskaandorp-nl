@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ site.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="icon" type="image/png" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="{{'/assets/css/index.css' | relative_url }}" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <script src="{{'/assets/js/main.js' | relative_url }}"></script>
+    <script src="https://kit.fontawesome.com/f43f1f946d.js" crossorigin="anonymous" async></script>
+</head>
+<body>
+    {% include topnav.html %}
+    <div class="section">
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% for item in site.data.work-experience.data %}
+<div class="columns is-desktop">
+    <div class="column is-two-fifths is-centered">
+        <figure class="image">
+            <img src="{{ site.url }}/assets/images/{{item.image}}">
+        </figure>
+    </div>
+    <div class="column">
+        <div class="is-size-2 is-size-3-mobile">{{ item.function }}</div><span>{{ item.company }}, {{ item.location }}</span>
+        <br><br>
+        <div class="content is-size-4 is-size-5-tablet is-size-6-mobile">
+            {{ item.description }}
+        </div>
+        <div class="content work-tasks">
+            <b>Tasks</b>
+            <br>
+            <ul>
+                {% for item in item.tasks %}
+                <li>{{ item.task }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endfor %}

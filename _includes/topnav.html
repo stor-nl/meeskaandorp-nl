@@ -1,0 +1,21 @@
+<nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+            MEES-MERIJN KAANDORP
+        </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="basenavbar">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="basenavbar" class="navbar-menu">
+        <div class="navbar-end">
+            {% for item in site.data.navbar.entries %}
+            <a class="navbar-item" href="{{ item.url }}">
+                {{ item.title }}
+              </a>
+            {% endfor %}
+        </div>
+    </div>
+</nav>
